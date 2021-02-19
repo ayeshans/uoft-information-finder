@@ -1,0 +1,30 @@
+.btn-normal {
+    background-size: cover;
+    width : 100%;
+    height: 100%;
+    background-position: center;
+    transition: all .5s;
+};
+
+.btn-hover img {
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    vertical-align: middle;
+}
+
+.btn-hover {
+    background-size: cover;
+    width : 100%;
+    height: 100%;
+    background-position: center;
+    transition: all .5s;
+
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+    transform:scale(1.2);
+};

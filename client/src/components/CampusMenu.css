@@ -1,0 +1,9 @@
+.panel {
+    margin: auto;
+    width:800px; 
+    height:200px;
+    display:flex; 
+    flex-direction:row;
+    justify-content: center;
+    position: relative;
+}
